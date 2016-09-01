@@ -7,8 +7,6 @@
     el.textContent = 'Today is ' + day;
 } ());
 
-document.getElementById('onClick').onClick = function () { buttonAction() };
-
 //Creating a function to call when button is clicked
 function buttonAction() {
     //Gets number of days from user
